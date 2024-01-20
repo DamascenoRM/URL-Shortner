@@ -107,10 +107,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <?php echo "</a>"; ?>
             <h2 class="mt-4 translate-middle top-0">Login</h2>
         </div>
-        <div>
-            <a href="login.php?action=logout" class="btn btn-outline-secondary"><i class="bi bi-power"></i> Logout</a>
-            <a href="./settings.php" class="btn btn-outline-secondary"><i class="bi bi-gear"></i> Settings</a>
-        </div>
         </div>
         <form method="post">
             <div class="mb-3">
